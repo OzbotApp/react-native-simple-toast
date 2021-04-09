@@ -8,7 +8,7 @@ declare var SimpleToast: {
   BOTTOM: string;
   CENTER: string;
 
-  show: (message: string, duration?: number, viewControllerBlacklist?: Array<string>) => void;
+  show: (message: string, duration?: number, position: SimpleToast.BOTTOM | SimpleToast.TOP | SimpleToast.CENTER, viewControllerBlacklist?: Array<string>) => void;
 
   showWithGravity: (
     message: string,
